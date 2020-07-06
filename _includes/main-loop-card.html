@@ -11,10 +11,10 @@
 		{% for category in post.categories %}
 		<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
 		{% endfor %}
-		</span>
+		</span>.
 	</small>
 	<small class="text-muted">
-		{{ post.date | date: '%b %d, %Y' }}
+		{{ post.date | date: '%b %d, %Y' }} <i class="fa fa-star text-gray"></i>
 	</small>
 </div>
 {% if post.image %}
