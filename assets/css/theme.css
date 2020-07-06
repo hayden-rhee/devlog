@@ -661,7 +661,7 @@ article {
 }
 .article-headline {
     font-family: "Caruta", Georgia,Times,"Times New Roman",serif;
-    font-size: 3.2rem;
+    font-size: 40px;
     font-weight: 400;
     line-height: 1.15;
     color: #222222;
@@ -784,7 +784,7 @@ a.a2a_i, i.a2a_i, .a2a_menu a.a2a_i:visited, .a2a_menu a.a2a_more {
     color:#999 !important;
 }
 div.a2a_full_footer {display:none;}
-@media (min-width: 950px) {
+@media (max-width: 950px) {
 	html {font-size:18px;}
 	 h6,.h6 { 
 		 font-size: 1.1rem; 
