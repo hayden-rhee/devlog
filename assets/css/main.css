@@ -7234,7 +7234,7 @@ a.text-light:hover, a.text-light:focus {
 
 .text-dark {
   color: #212529 !important; 
-  letter-spacing: -1 !important;
+  letter-spacing: -1px !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
