@@ -19,9 +19,9 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    hyeon:
       name:           Hyeon Lee
-      site:           hyeondnl.github.io
+      site:           https://hyeondnl.github.io
       bio:            "Hi, I am Hyeon Lee, the author of this webpage. I hope you like it!"
       email:          hyeondnl@gmail.com
       twitter:        https://twitter.com/hyeondnl
