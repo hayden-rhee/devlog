@@ -20,12 +20,12 @@ plugins:
   
 authors:
     sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
+      name:           Hyeon Lee
+      site:           https://hyeondnl.github.io
       avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Hi, I am Hyeon Lee, the author of this webpage. I hope you like it!"
+      email:          hyeondnl@gmail.com
+      twitter:        https://twitter.com/hyeondnl
 
     jane:
       name:           Jane

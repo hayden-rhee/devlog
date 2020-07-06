@@ -3306,9 +3306,9 @@ input[type="button"].btn-block {
 
 .navbar-logo {
   height: 80px;
-  width: 70px;
-  padding-top: 0.68rem;
-  padding-bottom: 0.68rem;
+  width: 65px;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
   margin-right: 1rem;
   white-space: nowrap;
 }
