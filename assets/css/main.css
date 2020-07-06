@@ -3312,8 +3312,8 @@ input[type="button"].btn-block {
     justify-content: space-between; }
 
 .navbar-logo {
-  height: 80px;
-  width: 65px;
+  height: 70px;
+  width: 50px;
   padding-top: 0.65rem;
   padding-bottom: 0.65rem;
   margin-right: 1rem;
@@ -6061,6 +6061,10 @@ button.bg-lightblue:focus {
 .my-4 {
   margin-bottom: 1.5rem !important; }
 
+.mb-4 .text-muted {
+  font-family: "Klien";
+}
+
 .ml-4,
 .mx-4 {
   margin-left: 1.5rem !important; }
@@ -6170,6 +6174,10 @@ button.bg-lightblue:focus {
 .pr-3,
 .px-3 {
   padding-right: 1rem !important; }
+
+.pr-3 .text-muted {
+  font-family: "Klien";
+}
 
 .pb-3,
 .py-3 {
