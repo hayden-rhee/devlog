@@ -31,6 +31,7 @@ a,a:hover {
 	text-decoration:none;
 }
 a {
+	font-family: "Klien";
 	color:#03a87c;
 }
 a.text-dark:hover {
@@ -648,13 +649,14 @@ footer {
 	display:none !important;
 }
 .excerpt {
+		font-family: "Klien";
     color: rgba(0,0,0,0.59);
     margin-top:10px;
 }
 article {
-	font-size:20px;
+	font-size:12px;
 	line-height:1.86;
-    font-family:Lora;
+    font-family: "Caruta";
 }
 .article-headline {
     font-family: Georgia,Times,"Times New Roman",serif;

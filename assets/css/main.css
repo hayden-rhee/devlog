@@ -10,6 +10,11 @@
   src: url(../fonts/caruta.ttf)
 }
 
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klien.otf)
+}
+
 :root {
   --blue: #7832e2;
   --indigo: #502c6c;
@@ -3236,6 +3241,8 @@ input[type="button"].btn-block {
   list-style: none; }
 
 .nav-link {
+  font-family: "Klien";
+  text-transform: uppercase;
   display: block;
   padding: 0.8rem 1rem; }
   .nav-link:hover, .nav-link:focus {
