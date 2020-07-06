@@ -29,7 +29,6 @@ authors:
  
 # Defaults
 defaults:
-
   # all posts
   - scope:
       path: "_posts"

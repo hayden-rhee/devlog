@@ -8,6 +8,8 @@ image: assets/images/alphameme.jpg
 # git-work
 ![GitHub top language](https://img.shields.io/github/languages/top/hyeondnl/git-work) ![GitHub repo size](https://img.shields.io/github/repo-size/hyeondnl/git-work) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hyeondnl/git-work/master) ![GitHub](https://img.shields.io/github/license/hyeondnl/git-work)
 
+> The title of this page *is* a parody of "Cells at Work!".
+
 [<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="octocat" width="250" />](https://github.com)
 
 Oops! Our cute octocat is playing hooky right now. We should give him some works to do. Maybe he can help my git commits!
