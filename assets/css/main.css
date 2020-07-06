@@ -3305,8 +3305,7 @@ input[type="button"].btn-block {
     justify-content: space-between; }
 
 .navbar-logo {
-  width: 30px;
-  height: 30px;
+  height: 80px;
   padding-top: 0.68rem;
   padding-bottom: 0.68rem;
   margin-right: 1rem;
