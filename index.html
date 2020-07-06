@@ -37,7 +37,7 @@ description: ".devlog"
                 </span>                   
         </small>
         <small class="text-muted">
-            {{ latest_post.date | date: '%b %d, %Y' }} <i class="fa fa-star text-gray"></i>
+            {{ latest_post.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %} <i class="fa fa-star text-gray"></i>
         </small>
     </div>
     </div>
@@ -68,7 +68,7 @@ description: ".devlog"
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ second_post.date | date: '%b %d, %Y' }} <i class="fa fa-star text-gray"></i>
+                        {{ second_post.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %} <i class="fa fa-star text-gray"></i>
                     </small>
                 </div>
             </div>
@@ -95,7 +95,7 @@ description: ".devlog"
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ third_post.date | date: '%b %d, %Y' }} <i class="fa fa-star text-gray"></i>
+                        {{ third_post.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %} <i class="fa fa-star text-gray"></i>
                     </small>
                 </div>
             </div>
