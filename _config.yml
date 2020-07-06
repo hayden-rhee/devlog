@@ -1,11 +1,11 @@
 # Site
 name: '.devlog'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+description: '.devlog is a playground to write my thoughts down.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.jpg'
 baseurl: '/'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+disqus: 'hyeondnl'
+email: 'hyeondnl@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
@@ -21,11 +21,11 @@ plugins:
 authors:
     sal:
       name:           Hyeon Lee
-      site:           https://hyeondnl.github.io
-      avatar:         /assets/images/avatar1.jpg
+      site:           hyeondnl.github.io
       bio:            "Hi, I am Hyeon Lee, the author of this webpage. I hope you like it!"
       email:          hyeondnl@gmail.com
       twitter:        https://twitter.com/hyeondnl
+      avatar:         /assets/images/avatar_lhd.png
 
     jane:
       name:           Jane
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: post
       author: sal
-      avatar: /assets/images/avatar1.jpg
+      avatar: /assets/images/avatar.jpg
       
   # all pages
   - scope:
