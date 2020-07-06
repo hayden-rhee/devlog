@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Powerful things you can do with the Markdown editor"
-author: jane
+author: hyeon
 categories: [ Jekyll, tutorial ]
 image: assets/images/home.jpg
 tags: [summer]

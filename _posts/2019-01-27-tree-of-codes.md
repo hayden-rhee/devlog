@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tree of Codes"
-author: sal
+author: hyeon
 categories: [ Jekyll, tutorial ]
 image: assets/images/2.jpg
 ---

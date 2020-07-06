@@ -22,18 +22,10 @@ authors:
     hyeon:
       name:           Hyeondong Lee
       site:           https://hyeondnl.github.io
-      bio:            "Hi, I am Hyeondong Lee, and I'm the author of this webpage. I hope you like it!"
+      bio:            "Hi, I am Hyeondong Lee, the author of this webpage. I hope you enjoy the time!"
       email:          hyeondnl@gmail.com
       twitter:        https://twitter.com/hyeondnl
       avatar:         assets/images/avatar_lhd.png
-
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-      avatar:         assets/images/avatar.png
  
 # Defaults
 defaults:
@@ -43,7 +35,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: hyeon
       avatar: /assets/images/avatar.jpg
       
   # all pages
