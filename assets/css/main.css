@@ -7,12 +7,14 @@
 
 @font-face {
   font-family: Caruta;
-  src: url(../fonts/caruta.woff)
+  src: url(../fonts/caruta.woff),
+       url(../fonts/caruta.ttf)
 }
 
 @font-face {
   font-family: Klien;
-  src: url(../fonts/klien.otf)
+  src: url(../fonts/klien.otf),
+       url(../fonts/klien-bold.otf)
 }
 
 :root {
