@@ -2,9 +2,9 @@
 title: "Terms and Conditions"
 permalink: "/terms.html"
 ---
-
-<p>Last updated: July, 2020</p>
+<p>Last updated: July, 2020.</p>
 <p>Please read these terms and conditions carefully before using Our Service.</p>
+<br />
 <h3>Interpretation and Definitions</h3>
 <h4>Interpretation</h4>
 <p>The words of which the initial letter is capitalized have meanings defined under the following conditions.</p>
@@ -87,6 +87,6 @@ You agree that the original English text shall prevail in the case of a dispute.
 <p>By email: hyeondnl@gmail.com</p>
 </li>
 <li>
-<p>By visiting this page on our website: <a href="hyeondnl.tk/contact" rel="external nofollow noopener" target="_blank">hyeondnl.tk/contact</a></p>
+<p>By visiting this page on our website: <a href="https://hyeondnl.tk/contact" rel="external nofollow noopener" target="_blank">hyeondnl.tk/contact</a></p>
 </li>
 </ul>
