@@ -6175,7 +6175,7 @@ button.bg-lightblue:focus {
 .px-3 {
   padding-right: 1rem !important; }
 
-.pr-3 .text-muted {
+.pr-3, .text-muted {
   font-family: "Klien";
 }
 
