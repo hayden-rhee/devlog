@@ -6,8 +6,8 @@
  */
 
 @font-face {
-  font-family: Charter;
-  src: url(../fonts/chatter.woff)
+  font-family: Caruta;
+  src: url(../fonts/caruta.ttf)
 }
 
 :root {
@@ -70,7 +70,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Charter", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: "Caruta", "Segoe UI", "Helvetica Neue", "Arial";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -3303,6 +3303,15 @@ input[type="button"].btn-block {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between; }
+
+.navbar-logo {
+  width: 30px;
+  height: 30px;
+  padding-top: 0.68rem;
+  padding-bottom: 0.68rem;
+  margin-right: 1rem;
+  white-space: nowrap;
+}
 
 .navbar-brand {
   display: inline-block;
