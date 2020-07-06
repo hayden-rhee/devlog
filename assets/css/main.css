@@ -78,9 +78,10 @@ body {
   font-family: "Caruta", "Segoe UI", "Helvetica Neue", "Arial";
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #212529;
   text-align: left;
+  padding-top: 70px;
   background-color: #fff; }
 
 [tabindex="-1"]:focus {
