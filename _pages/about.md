@@ -2,7 +2,8 @@
 title: "About"
 layout: page-sidebar
 permalink: "/about.html"
-image: "/assets/images/screenshot.jpg"
-comments: true
+image: "/assets/images/vr.jpg"
+comments: false
 ---
-Made with <i class="fa fa-heart text-danger"></i> by Sal [@wowthemesnet](https://www.wowthemes.net/category/free-themes-templates/).
+Technologies can make our life better.
+Published on Github Pages.
