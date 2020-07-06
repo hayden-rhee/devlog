@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: page
+layout: page-sidebar
 permalink: "/about.html"
 image: "/assets/images/vr.jpg"
 comments: false
