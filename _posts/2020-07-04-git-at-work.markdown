@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git at Work!"
-categories: [ Git, Sticky ]
+categories: [ Git, sticky ]
 author: hyeon
 image: assets/images/alphameme.jpg
 ---
