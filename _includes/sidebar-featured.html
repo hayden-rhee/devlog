@@ -13,16 +13,16 @@
                     <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                     {% endfor %}
                     </span>
-                </span>
-                </span class="text-muted">
+                    </span class="text-muted">
                         {{ post.date | date: '%b %d, %Y' }} · 
                         {% assign words = post.content | number_of_words %}
                         {% if words < 360 %}
-                          1 min read
+                        1 min read
                         {% else %}
-                          {{ words | divided_by:180 }} mins read
+                        {{ words | divided_by:180 }} mins read
                         {% endif %}
                         <i class="fa fa-star text-gray"></i>
+                    </span>
                 </span>
             </span>
             </li>                
