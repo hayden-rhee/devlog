@@ -6,67 +6,65 @@ author: hyeon
 image: assets/images/alphameme.jpg
 tags: [ featured ]
 ---
-> The title of this page *is* a parody of ["Cells at Work!"](https://en.wikipedia.org/wiki/Cells_at_Work!).
+> The title of this page is a spoof on ["Cells at Work!"](https://en.wikipedia.org/wiki/Cells_at_Work!).
 
-[<img style="" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="octocat" width="250" />](https://github.com)
+Commit messages on Git is extremely important, especially if the project gets bigger. It helps you figure out the changes made to the file, without asking your colleagues in detail. However, writing commit messages is sometimes very annoying. If you are running a project on your own, and if you know what's going on in your project, maybe specific comments are not needed. If you don't want to write brief commit messages in the project that nobody might see, let's throw it away!
 
-Oops! Our cute octocat is playing hooky right now. We should give him some works to do. Maybe he can help my git commits!
-
-### Introduction
-`work` will start *working* with basic stuffs on the current branch by this statement.
+### Let's get started
+`work` will start *working* on basic kinds of stuff on the current branch by calling it using this statement.
 ```bash
 git work
 ```
-The command pulls changes from the remote repos, commit the changes with a timestamp, and pushes back to the remote repo.
-You can select the works that `work` will automatically perform, using options.
+It will do three different things; pull changes going on the remote repositories, commit the changes with a timestamp, and pushes back to the remote repository.
+
+You can select a specific work that `work` will perform, using options.
 ```bash
 git work -c #commit only!
 ```
 
 ### Calling the branch
-#### `work in progress`
-At-mark `@` will *call* the branch.
-Once the branch is called, `work` will start to *work*; pull, commit, and push.
-**Make sure that the branch is not only checkouted, but also performs things in default, if there are no options.**
+At-mark `@` *calls* the branch to the program; it means that the branch is checkouted.
+Once the branch is called, `work` will start to *work*; pull, commit, and push on the specified branch. If there is no such branch in both local and remote, it automatically branches out to a new branch.
+**Check out that the command not only moves the working branch to the mentioned branch but also performs things in default if there are no options.**
 ```
 git work @branch @done
 ```
-`@done` command could be omitted, and its optional; actually it just sends you back to the branch you first started.  
-It is not like `end` from Pascal or `fi` from bash.
+`@done` command can be omitted, and it is optional; actually, it just sends you back to the branch where the program first started. 
+
 ```bash
 #working in master branch
-git work @hotfix <something> @develop <something>         #stays in develop branch
-git work @hotfix <something> @develop <something> @done   #returns to master branch
+git work @hotfix <something>         #stays in hotfix branch
+git work @hotfix <something> @done   #returns to master branch
 ```
 
-For example, the following command first pushes the changes you made to `develop` branch. Then it pulls the changes from `hotfix` branch to `release` branch, and compares `release` branch with your working branch (`develop`).
+Calling the branch could be chained. For example, the following command first pushes the changes you made to `develop` branch. Then it pulls the changes from the `hotfix` branch to the `release` branch and compares the merged `release` branch with the `develop` branch.
 ```bash
 #working in develop branch
 git work
 git work @release -f @hotfix @. -d
 ```
-
-`@.` is a short name for the current branch at the moment you call it; in this case, `release` branch. It is also the default value when the branch name is not mentioned.
+`@.` is a short name for the current branch at the moment you call it; in this case, `release` branch. It is also the default value of the branch when nothing else is mentioned.
 
 ### Calling the remote repository
-#### `work in progress`
 
 Sharp, or a hashtag `#` will *call* the remote repository.
 ```
 git work @release -f #johndoe
 ```
-The default value is `#.`, if you don't specify the remote. This points to the remote origin.
+The default value is `#.` if you don't specify the remote. This is another name for the `origin` remote.
 
-### Example
-This code make sense based on the syntax, but it looks terrifying and hard to read.
+#### Caution
+Based on the syntax defined, the following code will work, but it looks terrifying. Note that writing too long chain will decrease the readability.
 ```
 git work @feature -f #johndoe @develop -f #myboss @feature @. @done
 ```
-This looks way better; I recommend you to use this.
+
+Instead, use shorter separate chains. Avoid using more than one `@done` calls.
 ```
 git work @feature -f #johndoe @done
 git work @develop -f #myboss @feature @. @done
 ```
+
 This code will perform the same thing.
 ```bash
 git pull johndoe feature         # @feature -f #johndoe
@@ -77,10 +75,10 @@ git commit                       #
 git push origin develop          # @.
 git checkout master              # @done
 ```
+Above all things, just use the simplist `git work`; this is what I first intended.
 
 #### Auto-complete
-#### `work in progress`
-`work` supports auto-complete in bash. Tapping tab key after `@` and `#` will each show you available branch and remote names.
+`work` supports auto-complete in bash. Tab key after writing `@` and `#` will each show you available branch and remote names.
 
 ### Installation
 Giving the `git-work` script file a power will wake our octocat up! 
