@@ -655,7 +655,7 @@ footer {
 }
 article {
 	font-size: 20px;
-	font-family: "Caruta";
+	font-family: "Caruta", "KoPub";
 	font-style: normal;
 	color: rgb(41, 41, 41);
 }

@@ -72,3 +72,19 @@
   font-weight: 400;
   font-style: italic;
 }
+
+@font-face {
+  font-family: KoPub;
+  src: url(../fonts/kopub-Regular.otf) format('otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: KoPub;
+  src: url(../fonts/kopub-Bold.otf) format('otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: KoPub;
+  src: url(../fonts/kopub-Medium.otf) format('otf');
+  font-weight: 500;
+}
