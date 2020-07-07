@@ -3234,6 +3234,7 @@ input[type="button"].btn-block {
 
 .nav-link {
   font-family: "Klien";
+  font-weight: 200;
   text-transform: uppercase;
   display: block;
   padding: 0.8rem 1rem; }

@@ -1,22 +1,22 @@
 @font-face {
   font-family: Caruta;
-  src: url(../fonts/caruta-Roman.ttf) format('ttf');
+  src: url(../fonts/caruta-Roman.woff) format('woff');
   font-weight: 400;
 }
 @font-face {
   font-family: Caruta;
-  src: url(../fonts/caruta-Bold.ttf) format('ttf');
+  src: url(../fonts/caruta-Bold.woff) format('woff');
   font-weight: 700;
 }
 @font-face {
   font-family: Caruta;
-  src: url(../fonts/caruta-BoldItalic.ttf) format('ttf');
+  src: url(../fonts/caruta-BoldItalic.woff) format('woff');
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: Caruta;
-  src: url(../fonts/caruta-Italic.ttf) format('ttf');
+  src: url(../fonts/caruta-Italic.woff) format('woff');
   font-weight: 400;
   font-style: italic;
 }
