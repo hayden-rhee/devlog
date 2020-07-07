@@ -5,6 +5,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
  @import url(./fontrender.css);
+ #gallery {
+   @media (max-width: 1200px) {
+     max-width: 100px
+   }
+  max-width: 75%;
+  border-style: double;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+ }
 
 :root {
   --blue: #7832e2;
