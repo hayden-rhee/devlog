@@ -16,7 +16,9 @@ layout: default
 					</p>
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
 					<div class="d-flex align-items-center">
-                        {% if author.avatar %}
+												<a style="color: #212529" href="{{site.baseurl}}/{{author.myurl}}">
+												{% if author.avatar %}
+												</a>
                         <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
                         {% endif %}
 						<small class="ml-3"> {{ author.name }}
