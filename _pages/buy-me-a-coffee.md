@@ -8,4 +8,4 @@ Thank you for visiting. We deeply appreciate your interest in our webpage.
 
 But thank you very much for your support!
 
-<a class="btn btn-dark" href="">Buy me a coffee</a><a style="font-family: 'Caruta'; color: lightgrey;"> not available</a>
+<a class="btn btn-gray" href="">Buy me a coffee</a><a style="font-family: 'Caruta'; color: lightgrey;"> not available</a>

@@ -4,6 +4,7 @@ title:  "Git at Work!"
 categories: [ Git ]
 author: hyeon
 image: assets/images/alphameme.jpg
+tags: [ featured ]
 ---
 > The title of this page *is* a parody of ["Cells at Work!"](https://en.wikipedia.org/wiki/Cells_at_Work!).
 
