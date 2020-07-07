@@ -64,12 +64,10 @@ description: ".devlog"
                 </div>
                 {% endif %}                
                 <div>
-                  <p style="margin-bottom: 0;font-weight: 100;text-transform: uppercase;font-size: small;" class="text-muted">
-                    <span>
-                      {% for category in second_post.categories %}
-                      <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
-                      {% endfor %}
-                    </span> 
+                  <p style="margin-bottom: 0;font-weight: 200;text-transform: uppercase;font-size: small;" class="text-muted">
+                    {% for category in second_post.categories %}
+                    <a class="text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
+                    {% endfor %}
                   </p>
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
@@ -133,11 +131,9 @@ description: ".devlog"
                 {% endif %}                
                 <div>
                   <p style="margin-bottom: 0;font-weight: 200;text-transform: uppercase;font-size: small;" class="text-muted">
-                    <span>
                       {% for category in fourth_post.categories %}
-                      <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
+                      <a class="text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
                       {% endfor %}
-                    </span> 
                   </p>
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
