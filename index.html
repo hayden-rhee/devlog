@@ -29,15 +29,15 @@ description: ".devlog"
         {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
     </p>
     <div>
-        <small class="d-block text-muted">
-            In <span class="catlist">
-                {% for category in latest_post.categories %}
-                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                {% endfor %}
-                </span>                   
-        </small>
         <small class="text-muted">
-            {{ latest_post.date | date: '%b %d, %Y' }} · {% include latest_post | meta-read-time.html %} <i class="fa fa-star text-gray"></i>
+            {{ latest_post.date | date: '%b %d, %Y' }} · 
+            {% assign words = latest_post.content | number_of_words %}
+            {% if words < 360 %}
+              1 min read
+            {% else %}
+              {{ words | divided_by:180 }} mins read
+            {% endif %}
+            <i class="fa fa-star text-gray"></i>
         </small>
     </div>
     </div>
@@ -60,13 +60,6 @@ description: ".devlog"
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        {% for category in second_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                        {% endfor %}
-                        </span>                   
-                    </small>
                     <small class="text-muted">
                         {{ second_post.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %} <i class="fa fa-star text-gray"></i>
                     </small>
@@ -87,13 +80,6 @@ description: ".devlog"
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        {% for category in third_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                        {% endfor %}
-                        </span>                   
-                    </small>
                     <small class="text-muted">
                         {{ third_post.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %} <i class="fa fa-star text-gray"></i>
                     </small>
@@ -114,13 +100,6 @@ description: ".devlog"
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        {% for category in fourth_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                        {% endfor %}
-                        </span>                   
-                    </small>
                     <small class="text-muted">
                         {{ fourth_post.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %} <i class="fa fa-star text-gray"></i>
                     </small>
