@@ -8,4 +8,4 @@ Thank you for visiting. We deeply appreciate your interest in our webpage.
 
 But thank you very much for your support!
 
-<a class="btn btn-dark" href="">Buy me a coffee</a><a style="color: lightgrey">not available</p>
+<a class="btn btn-dark" href="">Buy me a coffee</a><a style="color: lightgrey"> not available</a>
