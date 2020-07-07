@@ -2,7 +2,8 @@
 title: "Terms and Conditions"
 permalink: "/terms.html"
 ---
-Last updated: July, 2020.
+Last update on July, 2020.
+
 Please read these terms and conditions carefully before using Our Service.
 
 #### Interpretation and Definitions
