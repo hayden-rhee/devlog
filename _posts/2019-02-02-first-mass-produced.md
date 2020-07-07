@@ -2,7 +2,7 @@
 layout: post
 title:  "The first mass-produced book to deviate from a rectilinear format"
 author: hyeon
-categories: [ tutorial, sticky ]
+categories: [ tutorial ]
 image: assets/images/17.jpg
 tags: [featured]
 ---
