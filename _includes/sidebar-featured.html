@@ -4,6 +4,11 @@
         {% for post in site.tags.featured %}                
             <li class="mb-4">
             <span>
+                <p style="margin-bottom: 0;font-weight: 200;text-transform: uppercase;font-size: smaller;" class="text-muted">
+                    {% for category in post.categories %}
+                    <a class="text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
+                    {% endfor %}
+                </p>
                 <h6 class="font-weight-bold">
                     <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
                 </h6>
