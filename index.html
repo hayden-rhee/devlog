@@ -23,7 +23,7 @@ description: ".devlog"
     </a>
     <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
       <p style="margin-bottom: 0;font-weight: 200;text-transform: uppercase;" class="text-muted">
-        {% for category in fourth_post.categories %}
+        {% for category in latest_post.categories %}
         <a class="text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
         {% endfor %}
     </p>
