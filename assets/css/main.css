@@ -7173,7 +7173,7 @@ button.bg-lightblue:focus {
   font-weight: 400 !important; }
 
 .font-weight-bold {
-  font-weight: bolder !important; }
+  font-weight: 500 !important; }
 
 .font-italic {
   font-style: italic !important; }
@@ -7225,7 +7225,7 @@ a.text-light:hover, a.text-light:focus {
 
 .text-dark {
   color: #212529 !important; 
-  letter-spacing: -1.2px !important;
+  letter-spacing: -0.5px !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
