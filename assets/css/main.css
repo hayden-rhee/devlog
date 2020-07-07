@@ -8,13 +8,24 @@
 @font-face {
   font-family: Caruta;
   src: url(../fonts/caruta.woff),
-       url(../fonts/caruta.ttf)
+       url(../fonts/caruta-Roman.ttf)
+       url(../fonts/caruta-Italic.ttf)
+       url(../fonts/caruta-Bold.ttf)
+       url(../fonts/caruta-BoldItalic.ttf)
 }
 
 @font-face {
   font-family: Klien;
-  src: url(../fonts/klien.otf),
-       url(../fonts/klien-bold.otf)
+  src: url(../fonts/klein-Thin.woff),
+       url(../fonts/klein-ExtraLight.woff),
+       url(../fonts/klein-Light.woff),
+       url(../fonts/klein-Regular.woff),
+       url(../fonts/klein-Medium.woff),
+       url(../fonts/klein-Book.woff),
+       url(../fonts/klein-Bold.woff),
+       url(../fonts/klien-ExtraBold.woff),
+       url(../fonts/klien-Black.woff),
+       url(../fonts/klein-Italic.woff),
 }
 
 :root {
