@@ -81,6 +81,10 @@ Above all things, just use the simplist `git work`; this is what I first intende
 `work` supports auto-complete in bash. Tab key after writing `@` and `#` will each show you available branch and remote names.
 
 ### Installation
+![GitHub top language](https://img.shields.io/github/languages/top/hyeondnl/git-work) ![GitHub repo size](https://img.shields.io/github/repo-size/hyeondnl/git-work) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hyeondnl/git-work/master) ![GitHub](https://img.shields.io/github/license/hyeondnl/git-work)
+
+
+[Find me on Github!](https://github.com/hyeondnl/git-work) [GitHub forks](https://img.shields.io/github/forks/hyeondnl/git-work?style=social)
 Giving the `git-work` script file a power will wake our octocat up! 
 ```bash
 chmod +x $DOWNLOAD_PATH/git-work
