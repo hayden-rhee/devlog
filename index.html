@@ -24,7 +24,7 @@ description: ".devlog"
     <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
     <h2 class="h4 font-weight-bold">
     <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
-    </h2>2
+    </h2>
     <p class="excerpt">
         {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
     </p>
@@ -61,8 +61,8 @@ description: ".devlog"
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="text-muted">
-                        {{ latest_post.date | date: '%b %d, %Y' }} · 
-                        {% assign words = latest_post.content | number_of_words %}
+                        {{ second_post.date | date: '%b %d, %Y' }} · 
+                        {% assign words = second_post.content | number_of_words %}
                         {% if words < 360 %}
                           1 min read
                         {% else %}
@@ -88,8 +88,8 @@ description: ".devlog"
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="text-muted">
-                        {{ latest_post.date | date: '%b %d, %Y' }} · 
-                        {% assign words = latest_post.content | number_of_words %}
+                        {{ third_post.date | date: '%b %d, %Y' }} · 
+                        {% assign words = third_post.content | number_of_words %}
                         {% if words < 360 %}
                           1 min read
                         {% else %}
@@ -115,8 +115,8 @@ description: ".devlog"
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="text-muted">
-                        {{ latest_post.date | date: '%b %d, %Y' }} · 
-                        {% assign words = latest_post.content | number_of_words %}
+                        {{ fourth_post.date | date: '%b %d, %Y' }} · 
+                        {% assign words = fourth_post.content | number_of_words %}
                         {% if words < 360 %}
                           1 min read
                         {% else %}

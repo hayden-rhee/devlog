@@ -7,15 +7,15 @@
 	   {{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}
 	</p>
 	<small class="text-muted">
-		{{ latest_post.date | date: '%b %d, %Y' }} · 
-		{% assign words = latest_post.content | number_of_words %}
+		{{ post.date | date: '%b %d, %Y' }} · 
+		{% assign words = post.content | number_of_words %}
 		{% if words < 360 %}
 			1 min read
 		{% else %}
 			{{ words | divided_by:180 }} mins read
 		{% endif %}
 		<i class="fa fa-star text-gray"></i>
-</small>
+  </small>
 </div>
 {% if post.image %}
 	<div class="col-md-3 pr-0 text-right">
