@@ -8,9 +8,9 @@
 @font-face {
   font-family: Caruta;
   src: url(../fonts/caruta.woff),
-       url(../fonts/caruta-Roman.ttf)
-       url(../fonts/caruta-Italic.ttf)
-       url(../fonts/caruta-Bold.ttf)
+       url(../fonts/caruta-Roman.ttf),
+       url(../fonts/caruta-Italic.ttf),
+       url(../fonts/caruta-Bold.ttf),
        url(../fonts/caruta-BoldItalic.ttf)
 }
 
@@ -64,7 +64,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Segoe UI", "Helvetica Neue", "Arial";
+  --font-family-sans-serif: "Klien", "Segoe UI", "Helvetica Neue", "Arial";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
