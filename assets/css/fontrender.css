@@ -75,32 +75,32 @@
 
 @font-face {
   font-family: KoPub;
-  src: url(../fonts/kopub-Regular.otf) format('otf');
+  src: url(../fonts/kopub-Regular.otf) format('opentype');
   font-weight: 400;
 }
 @font-face {
   font-family: KoPub;
-  src: url(../fonts/kopub-Bold.otf) format('otf');
+  src: url(../fonts/kopub-Bold.otf) format('opentype');
   font-weight: 700;
 }
 @font-face {
   font-family: KoPub;
-  src: url(../fonts/kopub-Medium.otf) format('otf');
+  src: url(../fonts/kopub-Medium.otf) format('opentype');
   font-weight: 500;
 }
 
 @font-face {
   font-family: Dotum;
-  src: url(../fonts/dotum-Regular.otf) format('otf');
+  src: url(../fonts/dotum-Regular.otf) format('opentype');
   font-weight: 400;
 }
 @font-face {
   font-family: Dotum;
-  src: url(../fonts/dotum-Bold.otf) format('otf');
+  src: url(../fonts/dotum-Bold.otf) format('opentype');
   font-weight: 700;
 }
 @font-face {
   font-family: Dotum;
-  src: url(../fonts/dotum-Light.otf) format('otf');
+  src: url(../fonts/dotum-Light.otf) format('opentype');
   font-weight: 300;
 }
