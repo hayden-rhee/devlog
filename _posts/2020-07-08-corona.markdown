@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "코로나바이러스감염증-19"
+title:  "Coronavirus Disease 2019 pandemic in South Korea"
 categories: [ Column ]
 author: hyeon
 image: assets/images/13.jpg
 ---
-## 개요 
-[코로나 바이러스]() 계열의 변종인 [SARS-CoV-2]()에 의해 발병하는 급성 호흡기 질환으로, 2019년 12월부터 퍼져 지금까지 지속되고 있는 [범유행 전염병]()이자 사람과 동물 모두 감염되는 [인수공통전염병]()이다. 2019년 12월 12일 최초 보고 내용에 따르면, 2019년 12월 1일 중국 후베이성 우한시에서 최초로 발생되었다.
+Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). It was first identified in December 2019 in Wuhan, Hubei, China, and has resulted in an ongoing pandemic. The first confirmed case has been traced back to 17 November 2019 in Hubei. As of 8 July 2020, more than 11.7 million cases have been reported across 188 countries and territories, resulting in more than 543,000 deaths. More than 6.41 million people have recovered.
 
 
 2020년 1월부터 본격적으로 중국에서 외부로 퍼지기 시작해 3월 말까지 일부 국가 및 지역을 제외한 지구상 대부분의 나라와 남극을 제외한 모든 대륙으로 확산되며 많은 감염자와 사망자를 기록했다. [세계보건기구](WHO)는 2020년 1월 31일, 국제적 공중보건 비상사태를 선포했고, 2월 28일부로 코로나바이러스감염증-19의 전 세계 위험도를 '매우 높음'으로 격상하였으며, 3월 11일 코로나바이러스감염증-19가 [범유행전염병]임을 선언했다.
