@@ -88,3 +88,19 @@
   src: url(../fonts/kopub-Medium.otf) format('otf');
   font-weight: 500;
 }
+
+@font-face {
+  font-family: Dotum;
+  src: url(../fonts/dotum-Regular.otf) format('otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Dotum;
+  src: url(../fonts/dotum-Bold.otf) format('otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Dotum;
+  src: url(../fonts/dotum-Light.otf) format('otf');
+  font-weight: 300;
+}

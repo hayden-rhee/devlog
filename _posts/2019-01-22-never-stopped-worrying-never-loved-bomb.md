@@ -2,7 +2,7 @@
 layout: post
 title:  "Never stopped worrying or loving the bomb"
 author: hyeon
-categories: [ Jekyll ]
+categories: [ Column ]
 image: assets/images/14.jpg
 tags: featured
 ---
