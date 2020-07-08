@@ -7236,7 +7236,7 @@ a.text-light:hover, a.text-light:focus {
 
 .text-dark {
   color: #212529 !important; 
-  letter-spacing: -0.5px !important;
+  letter-spacing: -0.4px !important;
   font-weight: 700;
 }
 
