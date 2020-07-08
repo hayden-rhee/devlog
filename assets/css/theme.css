@@ -655,10 +655,19 @@ footer {
 }
 article {
 	font-size: 20px;
-	font-family: "Caruta", "Dotum";
+	font-family: "Caruta", "KoPub";
 	font-style: normal;
 	color: rgb(41, 41, 41);
 }
+
+article :lang(ko) {
+	font-size: 20px;
+	line-height: 1.8;
+	font-family: "KoPub";
+	font-style: normal;
+	color: rgb(41, 41, 41);
+}
+
 .article-headline {
     font-family: "Caruta", "Dotum", Georgia,Times,"Times New Roman",serif;
     font-size: 40px;
